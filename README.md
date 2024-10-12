@@ -1,4 +1,4 @@
-# **AirTravelScheduler Using CouchBase**
+# **Air Travel Scheduler Using CouchBase**
 
 ## **Project Overview**:
 
@@ -6,20 +6,20 @@ This project leverages Couchbase as the database for a Trip Planner application.
 
 ## **Technologies Used**:
 
-- Couchbase:
+- **Couchbase**:
 A NoSQL database used to manage and store travel-related documents (e.g., airlines, routes, hotels).
-- Docker:
+- **Docker**:
  Used to run the Couchbase server locally, accessible via localhost:8091.
-- N1QL:
+- **N1QL**:
 Couchbase's query language, used for performing CRUD operations on the database.
 
 ## **Data Entities**:
 
-- Airlines:
+- **Airlines**:
 Stores details about airline companies, including information like name, fleet size, headquarters, and destinations.
-- Routes:
+- **Routes**:
 Contains information about flight routes, including departure and arrival airports, distance, and flight time.
-- Airports:
+- **Airports**:
 Holds details about airports, such as name and location (city and country).
-- Hotels:
+- **Hotels**:
 Stores data about hotels, including the name and location of each property.
